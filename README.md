@@ -1,4 +1,4 @@
-# Local-DNS-Spoofing
+# DNS-Poisoning
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Depending on your python installation your commands may vary.
 The IP your input is of the web server that you want to redirect to, and the domain is the victim domain that you want to poison.
 
 ```
-git clone https://github.com/LocalsGitHub/Local-DNS-Spoofing.git
+git clone https://github.com/LocalsGitHub/DNS-Poisoning.git
 cd Local-DNS-Spoofing
 py main.py (IP) (domain)
 ```
