@@ -4,10 +4,12 @@ import ctypes
 
 # This script targets windows machines. 
 
+def setTitle():
+	ctypes.windll.kernel32.SetConsoleTitleW("Local DNS Poisoning | github.com/LocalsGitHub ")
+
 def main():
-	ctypes.windll.kernel32.SetConsoleTitleW("Local DNS Poisoning | github.com/LocalsGitHub | Awaiting confirmation to spoof")
 	os.system('cls')
-	print("Press enter to start")
+	print("Press enter to start spoof")
 	os.system('PAUSE')
 	checkForAdmin()
 	dnsSpoof()
@@ -59,7 +61,7 @@ def checkForArgs():
 		pass
 
 if __name__ == '__main__':
-	ctypes.windll.kernel32.SetConsoleTitleW("Local DNS Poisoning | github.com/LocalsGitHub ")
+	setTitle()
 	checkForArgs()
 	main()
 
