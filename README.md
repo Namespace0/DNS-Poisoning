@@ -19,4 +19,7 @@ py main.py (IP) (domain)
 ```
 ## Help
 
-YouTube video coming soon!
+Watch the YouTube video below!
+(Click the image below)
+
+[<img src="https://img.youtube.com/vi/ACeOeALusaY/maxresdefault.jpg" width="100%">](https://youtu.be/ACeOeALusaY)
