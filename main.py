@@ -51,12 +51,12 @@ def checkForArgs():
 		print("Example: 'py main.py {ip} {domain}'")
 		os.system('PAUSE')
 		exit()
-	if (ip == ' ' and host == ' '):
-		os.system('cls')
-		print("Please pass in the correct arguments.")
+	if (len(sys.argv) != 3):
+		print("Invalid argument length")
 		print("Example: 'py main.py {ip} {domain}'")
-		os.system('PAUSE')
-		exit()
+        os.system('PAUSE')
+        exit()
+		
 	else:
 		pass
 
